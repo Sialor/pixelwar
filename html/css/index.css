@@ -1,0 +1,69 @@
+body {
+  margin: 0px;
+  -moz-user-select: none;
+  overflow: hidden;
+}
+
+#bgcanvas {
+  width: 0;
+  height: 0;
+}
+
+#flex-container {
+  display: flex;
+  padding: 6px;
+}
+
+#minimap {
+  width: 116px;
+  height: 64px;
+  margin-right: 3px;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+#vertical-tool {
+  display: block;
+  width: 20px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+#colorbrush {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#pipette {
+  width: 18px;
+  height: 18px;
+  background-color: rgba(0, 0, 0, 0); /* 0, 0, 0, 0.1 */
+  border-color: rgba(127, 127, 127, 0); /* 127, 127, 127, 0.5*/
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+#timer {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+#colormap {
+  margin-left: 3px;
+}
+
+img[id^="colorelement"] {
+  margin: 1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 30px;
+}
+
+#splitline {
+  background: linear-gradient(90deg, white, gray, black, gray, white);
+  height: 1px;
+  margin: 0px;
+}
